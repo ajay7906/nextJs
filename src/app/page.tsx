@@ -106,6 +106,9 @@ import AboutSection from "@/components/AboutSection"
 import WhyChooseUs from "@/components/WhyChooseUs"
 import VideoIntroSection from "@/components/VideoSection"
 import LogoGrid from "@/components/LogoGrid"
+import BlogGrid from "@/components/BlogGrid"
+import TestimonialSlider from "@/components/TestiMonialSlider"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -117,6 +120,9 @@ export default function Home() {
     <WhyChooseUs/>
     <VideoIntroSection/>
     <LogoGrid/>
+    <BlogGrid/>
+    <TestimonialSlider/>
+    <Footer/>
     </>
   )
 }
